@@ -123,6 +123,27 @@ a {
     color: var(--main-bg-color)
 }
 
+.titre-principal > h1 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.titre-principal > h2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.titre-principal {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
+
 /** Recherche & filtres **/
 .icone {
     display: flex;
@@ -142,19 +163,19 @@ a {
 
 .formulaire {
     display: flex;
-    height: 50px;
+    height: 49px;
+    width: 377px;
 }
 
 .bouton-rechercher {
     background-color: #0065FC;
     color: white;
     font-size: 16px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
-    padding-right: 17px;
-    padding-left: 17px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .bouton-rechercher:hover {
@@ -172,9 +193,8 @@ input, textarea {
     color: rgb(68, 68, 68);
     opacity: 1;
     font-weight: 800;
-    font-size: 17px;
-    padding-left: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
 
 ::placeholder {
@@ -183,6 +203,8 @@ input, textarea {
     opacity: 1;
     font-size: 17px;
 }
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
