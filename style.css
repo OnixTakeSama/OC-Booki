@@ -440,6 +440,34 @@ input, textarea {
 }
 
 /***** Footer *****/
+footer {
+    background-color: var(--main-bg-color);
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+footer > div {
+    width: 33%;
+    list-style: none;
+    margin: 0;
+}
+
+footer > div > h5 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+footer > div > ul {
+    padding: 0;
+}
+
+footer > div > ul > li {
+    padding-bottom: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
