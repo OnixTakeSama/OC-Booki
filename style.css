@@ -392,8 +392,54 @@ input, textarea {
     margin-bottom: 5px;
 }
 
+/***** Activités *****/
+.activites {
+    padding: 30px;
+}
+.activites > h2 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.activites-cards {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 30px;
+}
 
+.activites-card {
+    display: flex;
+    flex-direction: column;
+    height: 439px;
+    width: 298px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #dedede;
+}
+
+.image-activite {
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 380px;
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.texte-activite {
+    padding: 0 19px
+}
+
+.texte-activite > h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/***** Footer *****/
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
