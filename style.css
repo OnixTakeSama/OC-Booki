@@ -280,6 +280,73 @@ input, textarea {
     width: 65%;
 }
 
+.hebergements-title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.hebergements-cards {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-hebergement {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    flex: 1 0 0;
+    border-radius: 20px;
+    border: 5px solid white;
+    background: white;
+    width: 250px;
+    height: 192px;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.hebergements-cards img {
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    height: 124px;
+    padding-bottom: 8px;
+}
+
+.hebergements-cards .card-content {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 15px;
+}
+
+.afficher-plus {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
