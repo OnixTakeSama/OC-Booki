@@ -125,14 +125,14 @@ a {
     color: var(--main-bg-color)
 }
 
-.titre-principal > h1 {
+.titre-principal>h1 {
     font-size: 22px;
     font-style: normal;
     font-weight: bold;
     line-height: normal;
 }
 
-.titre-principal > h2 {
+.titre-principal>h2 {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -191,7 +191,8 @@ input {
     outline: 0;
 }
 
-input, textarea {
+input,
+textarea {
     color: rgb(68, 68, 68);
     opacity: 1;
     font-weight: 800;
@@ -216,7 +217,7 @@ input, textarea {
     gap: 15px;
 }
 
-.filtres > h2 {
+.filtres>h2 {
     font-size: 18px;
 }
 
@@ -231,8 +232,8 @@ input, textarea {
     height: 50px;
 }
 
-.filter-button > i {
-    color:#0065FC;
+.filter-button>i {
+    color: #0065FC;
     padding-right: 10px;
 }
 
@@ -250,7 +251,7 @@ input, textarea {
     gap: 10px;
 }
 
-.infobar > i {
+.infobar>i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,6 +296,13 @@ input, textarea {
     flex-wrap: wrap;
 }
 
+.hebergements-cards a {
+    width: 30%;
+    min-width: 232px;
+    margin-bottom: 30px;
+    margin: 1%;
+}
+
 .card-hebergement {
     display: flex;
     padding-bottom: 0px;
@@ -303,9 +311,8 @@ input, textarea {
     border-radius: 20px;
     border: 5px solid white;
     background: white;
-    width: 250px;
+    /* width: 250px; */
     height: 192px;
-    margin-bottom: 30px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -396,7 +403,8 @@ input, textarea {
 .activites {
     padding: 30px;
 }
-.activites > h2 {
+
+.activites>h2 {
     font-size: 22px;
     font-weight: 700;
     padding-top: 30px;
@@ -434,7 +442,7 @@ input, textarea {
     padding: 0 19px
 }
 
-.texte-activite > h3 {
+.texte-activite>h3 {
     font-size: 16px;
     font-weight: 700;
 }
@@ -448,13 +456,13 @@ footer {
     margin-top: 35px;
 }
 
-footer > div {
+footer>div {
     width: 33%;
     list-style: none;
     margin: 0;
 }
 
-footer > div > h5 {
+footer>div>h5 {
     font-size: 18px;
     font-weight: 700;
     padding: 0;
@@ -462,11 +470,11 @@ footer > div > h5 {
     margin-bottom: 15px;
 }
 
-footer > div > ul {
+footer>div>ul {
     padding: 0;
 }
 
-footer > div > ul > li {
+footer>div>ul>li {
     padding-bottom: 15px;
 }
 
