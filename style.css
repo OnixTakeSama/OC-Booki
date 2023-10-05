@@ -180,6 +180,17 @@ a {
     padding-left: 15px;
 }
 
+.loupe {
+    display: none;
+    height: 19px;
+    padding: 15px 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--Blue, #0065FC);
+    color: white;
+}
+
 .bouton-rechercher:hover {
     background-color: #448fff;
 }
@@ -488,6 +499,10 @@ footer>div>ul>li {
         flex-direction: column;
     }
 
+    .loupe {
+        display: none;
+    }
+
     .hebergements {
         width: 100%;
     }
@@ -545,5 +560,102 @@ footer>div>ul>li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .main-container{
+        padding: 0;
+    }
+    /* Responsive header */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+        width: 100%;
+    }
+
+    header img {
+        padding: 30px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+        padding: 0px;
+        gap: 0px;
+    }
+
+    nav li {
+        display: flex;
+        width: 100%;
+        border-bottom: 3px solid #F2F2F2;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    nav li:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        border-top: 0px;
+    }
+
+    .menu:hover {
+        border-top: 0px;
+    }
+
+    .titre-principal {
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Responsive recherche and filters */
+    .recherche-filtres {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .bouton-rechercher {
+        display: none;
+    }
+    
+    .loupe {
+        display: inline;
+    }
+
+    .formulaire {
+        width: 265px;
+        border-top: 1px solid #F2F2F2;
+        border-bottom: 1px solid #F2F2F2;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    input {
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    .filtres {
+        flex-wrap: wrap;
+    }
+
+    /* Responsive populaires */
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .populaires {
+        width: 100%;
+    }
+
+    .populaires-cards{
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
 }
