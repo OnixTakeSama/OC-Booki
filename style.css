@@ -514,6 +514,33 @@ footer>div>ul>li {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .activites-cards {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 30px;
+    }
+    
+    .activites-card {
+        display: flex;
+        flex-direction: column;
+        height: 270px;
+        width: 194px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px #dedede;
+    }
+    
+    .image-activite {
+        overflow: hidden;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 200px;
+        width: 100%;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
