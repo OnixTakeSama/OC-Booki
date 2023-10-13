@@ -503,6 +503,14 @@ footer>div>ul>li {
         display: none;
     }
 
+    .filtres {
+        flex-wrap: wrap;
+    }
+
+    .filtres>h2 {
+        width: 100%;
+    }
+
     .hebergements {
         width: 100%;
     }
@@ -536,7 +544,7 @@ footer>div>ul>li {
         align-self: stretch;
         gap: 30px;
     }
-    
+
     .activites-card {
         display: flex;
         flex-direction: column;
@@ -546,7 +554,7 @@ footer>div>ul>li {
         border-radius: 20px;
         box-shadow: 2px 2px 10px #dedede;
     }
-    
+
     .image-activite {
         overflow: hidden;
         border-top-left-radius: 20px;
@@ -560,9 +568,18 @@ footer>div>ul>li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    .main-container{
+    .main-container {
         padding: 0;
     }
+
+    body {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
     /* Responsive header */
 
     header {
@@ -587,12 +604,13 @@ footer>div>ul>li {
         gap: 0px;
     }
 
-    nav li {
+    nav>ul>li {
         display: flex;
         width: 100%;
         border-bottom: 3px solid #F2F2F2;
         font-size: 16px;
         padding-bottom: 15px;
+        justify-content: center;
     }
 
     nav li:hover {
@@ -612,6 +630,11 @@ footer>div>ul>li {
     }
 
     /* Responsive recherche and filters */
+
+    .recherche {
+        width: 100%;
+    }
+
     .recherche-filtres {
         padding-left: 20px;
         padding-right: 20px;
@@ -620,7 +643,7 @@ footer>div>ul>li {
     .bouton-rechercher {
         display: none;
     }
-    
+
     .loupe {
         display: inline;
     }
@@ -638,8 +661,8 @@ footer>div>ul>li {
         border-bottom: 0;
     }
 
-    .filtres {
-        flex-wrap: wrap;
+    .filter-button {
+        flex: 45%;
     }
 
     /* Responsive populaires */
@@ -647,15 +670,36 @@ footer>div>ul>li {
         flex-direction: column-reverse;
     }
 
+    .hebergements-and-populaires .populaires {
+        border-radius: 0;
+    }
+
     .populaires {
         width: 100%;
     }
 
-    .populaires-cards{
+    .populaires-cards {
         flex-direction: column;
     }
 
     .card {
-        width: 100%;
+        width: 335px;
+        height: 146px;
     }
+
+    .card img {
+        height: 146px;
+    }
+
+    /* Responsive hébergements */
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+    }
+    
+    .hebergements {
+        width: 100%;
+        background-color: white;
+        padding: 0px;
+    }
+
 }
