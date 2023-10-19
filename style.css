@@ -719,9 +719,14 @@ footer>div>ul>li {
 
     .hebergements-cards a {
         width: 100%;
-        min-width: unset;
+        padding-bottom: 15px;
     }
 
+    .afficher-plus {
+        margin: 0;
+    }
+
+    /* Responsive activités */
     .activites-cards {
         flex-wrap: wrap;
     }
@@ -730,6 +735,7 @@ footer>div>ul>li {
         width: 100%;
     }
 
+    /* Responsive footer */
     footer {
         width: 100%;
         flex-direction: column;
