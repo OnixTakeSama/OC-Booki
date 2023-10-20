@@ -28,7 +28,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
-    height: 79;
+    height: 79px;
 }
 
 header>img {
@@ -462,7 +462,7 @@ textarea {
     font-size: 16px;
     font-weight: 700;
     margin: 0;
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 /***** Footer *****/
